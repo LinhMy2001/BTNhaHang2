@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    padding:1%;
+    width: 80%;
+    margin:0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+   width: 100% !important;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+   background-color:  #48dbfb;
+   text-decoration: none;
+   color: white;
+   padding: 1%;
+}
+.btn-primary:hover{
+    background-color: #0abde3;
+}
+
+.btn-secondary{
+    background-color:  #48dbfb;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+ }
+ .btn-secondary:hover{
+     background-color: #0abde3;
+ }
+
+ .btn-third{
+    background-color:  #badc58;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+ }
+ .btn-third:hover{
+     background-color: #6ab04c;
+ }
+ .btn-fourth
+ {
+    background-color:  #ff7979;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+ }
+ .btn-third:hover{
+     background-color: #eb4d4b;
+ }
+ .btn-fiveth
+ {
+    text-decoration: none;
+    color: green;
+    padding: 1%;
+ }
+ .btn-fiveth:hover{
+     background-color: #eb4d4b;
+ }
+ .btn-sixth
+ {
+    text-decoration: none;
+    color: rgba(224, 140, 154, 0.959);
+    padding: 1%;
+ }
+ .btn-sixth:hover{
+     background-color: #eb4d4b;
+ }
+ .btn-seventh{
+    background-color:  #badc58;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+ }
+ .btn-seventh:hover{
+     background-color: #6ab04c;
+ }
+ img, svg {
+    vertical-align: middle;
+    width: 150px;
+}
+
+
+/* css for menu */
+.menu{
+    /* text-align: center; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.788);
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+     font-weight:bold; /*in dam */
+     color: #eb4d4b;
+}
+.menu ul li a:hover{
+    color: #30336b;
+}
+/* css cho main */
+.main-content{
+    /* margin: 1% 0; */
+    background-color: rgba(128, 128, 128, 0.199);
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css footer */
+.footer{
+    background-color:#ff7979 ;
+    color: white;
+} 
+/* dung flat ul color */
